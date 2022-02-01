@@ -1,0 +1,12 @@
+.headerImage {
+  height: 55vh;
+  width: 100%;
+  background-position: center center;
+  background-size: "cover";
+}
+
+@media screen and (max-width: 600px) {
+  .headerImage {
+    height: 30vh;
+  }
+}
