@@ -7,7 +7,7 @@ import style from "../css/headerImage.module.css"
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "doma-landing.jpeg" }) {
+      file(relativePath: { eq: "doma-landing.jpg" }) {
         childImageSharp {
           fluid(quality: 95, maxWidth: 2000) {
             ...GatsbyImageSharpFluid
