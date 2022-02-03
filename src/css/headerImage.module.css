@@ -1,12 +1,24 @@
 .headerImage {
-  height: 55vh;
+  background-position: left bottom;
   width: 100%;
-  background-position: center center;
-  background-size: "cover";
+  height: 18vh;
+  background-size: cover;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 550px) {
+  .headerImage {
+    height: 20vh;
+  }
+}
+
+@media screen and (min-width: 700px) {
   .headerImage {
     height: 30vh;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .headerImage {
+    height: 55vh;
   }
 }

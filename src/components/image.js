@@ -7,7 +7,7 @@ import style from "../css/headerImage.module.css"
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "doma-landing.jpg" }) {
+      file(relativePath: { eq: "doma-title-image.jpg" }) {
         childImageSharp {
           fluid(quality: 95, maxWidth: 2000) {
             ...GatsbyImageSharpFluid
@@ -18,14 +18,12 @@ const Image = () => {
   `)
 
   return (
-    <>
-      <Img
-        fluid={data.file.childImageSharp.fluid}
-        className={style.headerImage}
-        loading="eager"
-        alt="Moderne Terrasse mit Swimmingpool - DOMA Bauunternehmen"
-      ></Img>
-    </>
+    <Img
+      fluid={data.file.childImageSharp.fluid}
+      className={style.headerImage}
+      loading="eager"
+      alt="Weißer Raum mit grauem Bodenbelag - DOMA Bauunternehmen"
+    />
   )
 }
 
