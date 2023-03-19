@@ -1,7 +1,7 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const Impressum = () => (
   <Layout>
@@ -12,9 +12,9 @@ const Impressum = () => (
         <h3>DOMA-Bauunternehmen</h3>
 
         <div className="paragraph-list">
-          <p>Geschäftsführer / Inhaber: Herr Domagoj Županić</p>
-          <p>Am Borsdorfer 58</p>
-          <p>60435 Frankfurt am Main</p>
+          <p>Inhaber: Herr Domagoj Županić</p>
+          <p>Hochstraße 10</p>
+          <p>63477 Maintal</p>
           <p>Telefon: (+49) 174 - 91 60 117</p>
           <p>Email: info@doma-bauunternehmen.de</p>
           <p>USt-ID: DE 312866682</p>
@@ -38,6 +38,6 @@ const Impressum = () => (
       </div>
     </div>
   </Layout>
-)
+);
 
-export default Impressum
+export default Impressum;

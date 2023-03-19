@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import { IconContext } from 'react-icons';
-import { MdPhone, MdMail } from 'react-icons/md';
-import styles from '../css/footer.module.css';
+import React from "react";
+import { Link } from "gatsby";
+import { IconContext } from "react-icons";
+import { MdPhone, MdMail } from "react-icons/md";
+import styles from "../css/footer.module.css";
 
 const Footer = () => {
   return (
@@ -10,9 +10,9 @@ const Footer = () => {
       <div className={styles.grid}>
         <IconContext.Provider
           value={{
-            style: { verticalAlign: 'middle', marginRight: '1rem' },
-            size: '2em',
-            color: '#996D23',
+            style: { verticalAlign: "middle", marginRight: "1rem" },
+            size: "2em",
+            color: "#996D23"
           }}
         >
           <div className={styles.phone}>
@@ -32,13 +32,13 @@ const Footer = () => {
         <div className={styles.address}>
           <ul>
             <li className={styles.heading}>DOMA-Bauunternehmen</li>
-            <li>Am Borsdorfer 58</li>
-            <li>60435 Frankfurt am Main</li>
+            <li>Hochstraße 10</li>
+            <li>63477 Maintal</li>
           </ul>
         </div>
 
         <div className={styles.info}>
-          © {new Date().getFullYear()}{' '}
+          © {new Date().getFullYear()}{" "}
           <Link to="/">DOMA-Bauunternehmen.de</Link> - Alle Rechte vorbehalten.
         </div>
         <ul className={styles.links}>
