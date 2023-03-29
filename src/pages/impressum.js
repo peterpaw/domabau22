@@ -15,7 +15,7 @@ const Impressum = () => (
           <p>Inhaber: Herr Domagoj Županić</p>
           <p>Hochstraße 10</p>
           <p>63477 Maintal</p>
-          <p>Telefon: (+49) 174 - 91 60 117</p>
+          <p>Telefon: (+49) 6109 696 4085</p>
           <p>Email: info@doma-bauunternehmen.de</p>
           <p>USt-ID: DE 312866682</p>
         </div>
